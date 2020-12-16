@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e881800e-e2f4-47cd-bc8d-ef4d0517d83a" name="Default Changelist" comment="add animation (real) top-down">
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/HeroKnight.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/HeroKnight.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_attack1.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_attack1.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_attack2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_attack2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_attack3.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_attack3.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_run.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/HeroKnight/Hero_run.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/World.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/World.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack1/HeroKnight_Attack1_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack2/HeroKnight_Attack2_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Attack3/HeroKnight_Attack3_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Block/HeroKnight_Block_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockIdle/HeroKnight_Block Idle_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/BlockNoEffect/HeroKnight_BlockNoEffect_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Death/HeroKnight_Death_9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/DeathNoBlood/HeroKnight_DeathNoBlood_9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Fall/HeroKnight_Fall_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Hurt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Hurt/HeroKnight_Hurt_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Hurt/HeroKnight_Hurt_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Hurt/HeroKnight_Hurt_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Hurt/HeroKnight_Hurt_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Hurt/HeroKnight_Hurt_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Hurt/HeroKnight_Hurt_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Idle/HeroKnight_Idle_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Jump.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Jump/HeroKnight_Jump_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Jump/HeroKnight_Jump_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Jump/HeroKnight_Jump_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Jump/HeroKnight_Jump_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Jump/HeroKnight_Jump_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Jump/HeroKnight_Jump_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/LedgeGrab/HeroKnight_Grab Ledge_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Roll/HeroKnight_Roll_8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/Run/HeroKnight_Run_9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/HeroKnight/WallSlide/HeroKnight_Slide_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back/hero-idle-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back/hero-idle-back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-side.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-side/hero-idle-side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-side/hero-idle-side.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Attack/Player_attack_down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Attack/Player_attack_down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Attack/Player_attack_left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Attack/Player_attack_left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Attack/Player_attack_up.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Attack/Player_attack_up.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back/hero-attack-back-weapon-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front/hero-attack-front-weapon-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-side/hero-attack-side-weapon-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back/hero-attack-back-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-front/hero-attack-front-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side-invert/hero-attack-side-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-side/hero-attack-side-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back/hero-idle-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back/hero-idle-back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-side.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-side/hero-idle-side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-side/hero-idle-side.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side-invert/hero-walk-side-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1lhFkaVv4c91iLWrrBi4RO4X4g2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e881800e-e2f4-47cd-bc8d-ef4d0517d83a" name="Default Changelist" comment="" />
+      <created>1608041564374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608041564374</updated>
+      <workItem from="1608041582940" duration="3387000" />
+      <workItem from="1608100907283" duration="510000" />
+      <workItem from="1608101464397" duration="644000" />
+      <workItem from="1608110944548" duration="6301000" />
+      <workItem from="1608132112886" duration="8374000" />
+    </task>
+    <task id="LOCAL-00001" summary="add movement 4-direction (keyboard only)">
+      <created>1608043190385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043190385</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add animation (real) top-down">
+      <created>1608130083675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608130083675</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add movement 4-direction (keyboard only)" />
+    <MESSAGE value="add animation (real) top-down" />
+    <option name="LAST_COMMIT_MESSAGE" value="add animation (real) top-down" />
+  </component>
+</project>
