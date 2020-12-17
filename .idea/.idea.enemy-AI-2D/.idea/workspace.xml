@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e881800e-e2f4-47cd-bc8d-ef4d0517d83a" name="Default Changelist" comment="add animation (real) top-down">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyGFX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enemy-AI-2D.sln.DotSettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HeroKnight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HeroKnight.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/World.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/World.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +40,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyGFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/526469D5-A48C-43EE-BD9A-F19F8745AFA1/dd/ce82e7de/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnemyAI/Scripts/EnemyAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyPathfindingMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/_/TopDownShooter/Scripts/EnemyMain.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyGFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lhFkaVv4c91iLWrrBi4RO4X4g2" />
@@ -65,7 +75,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -102,7 +112,8 @@
       <workItem from="1608110944548" duration="6301000" />
       <workItem from="1608132112886" duration="8374000" />
       <workItem from="1608178356732" duration="54000" />
-      <workItem from="1608178550352" duration="1079000" />
+      <workItem from="1608178550352" duration="1080000" />
+      <workItem from="1608180867093" duration="13087000" />
     </task>
     <task id="LOCAL-00001" summary="add movement 4-direction (keyboard only)">
       <created>1608043190385</created>
