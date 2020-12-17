@@ -2,4 +2,6 @@
 
 A-star Pathfinding
 
-https://cdn.discordapp.com/attachments/552079478243721218/789069350799278110/2020-12-17_16-54-13.mp4
+Report:
+17 December 2020
+<iframe src="https://giphy.com/embed/g8Ur5FUKweyVvIzjDg" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g8Ur5FUKweyVvIzjDg">via GIPHY</a></p>
