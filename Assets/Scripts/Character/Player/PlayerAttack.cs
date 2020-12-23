@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Player
+namespace Character.Player
 {
     public class PlayerAttack : MonoBehaviour
     {
-
         public Animator animator;
         
         [HideInInspector] public bool isAttack;
@@ -14,17 +13,16 @@ namespace Player
         private static readonly int Combo2 = Animator.StringToHash("Attack2");
         private static readonly int Combo3 = Animator.StringToHash("Attack3");
 
-        private int _attackCount;
+        private int attackCount;
 
-        // Update is called once per frame
-        void Update()
+        public void Attack()
         {
             if (Input.GetMouseButtonDown(0) && !isAttack)
             {
-                _attackCount++;
-                _attackCount = _attackCount > 3 ? _attackCount = 1 : _attackCount++;
+                attackCount++;
+                attackCount = attackCount > 3 ? attackCount = 1 : attackCount++;
 
-                switch (_attackCount)
+                switch (attackCount)
                 {
                     case 1:
                         StartCoroutine(Attack1());
@@ -40,7 +38,7 @@ namespace Player
                         break;
                 }
 
-                Debug.Log("Attack Count : " +_attackCount);
+                Debug.Log("Attack Count : " +attackCount);
             }
         }
         
