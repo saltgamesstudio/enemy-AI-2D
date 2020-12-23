@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Character.Player
+﻿namespace Character.Player
 {
     public class Player : Character
     {
