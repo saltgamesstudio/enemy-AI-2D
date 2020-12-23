@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e881800e-e2f4-47cd-bc8d-ef4d0517d83a" name="Default Changelist" comment="Clean code using abstract character">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/World.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/World.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyGFX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyGFX.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAttack.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e881800e-e2f4-47cd-bc8d-ef4d0517d83a" name="Default Changelist" comment="Clean code using abstract character" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +112,7 @@
       <workItem from="1608178550352" duration="1080000" />
       <workItem from="1608180867093" duration="13087000" />
       <workItem from="1608702762535" duration="4423000" />
-      <workItem from="1608712063416" duration="5874000" />
+      <workItem from="1608712063416" duration="6113000" />
     </task>
     <task id="LOCAL-00001" summary="add movement 4-direction (keyboard only)">
       <created>1608043190385</created>
