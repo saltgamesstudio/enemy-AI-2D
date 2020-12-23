@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using Pathfinding;
 using UnityEngine;
-using Pathfinding;
 
-namespace Enemy
+namespace Character.Enemy
 {
-    public class EnemyAI : MonoBehaviour
+    public class EnemyAI : Character
     {
         public Transform target;
         public Transform enemyGfx;
@@ -19,56 +17,36 @@ namespace Enemy
 
         private static readonly int Horizontal = Animator.StringToHash("Horizontal");
         private static readonly int Speed = Animator.StringToHash("Speed");
-        
-        private static readonly int Combo1 = Animator.StringToHash("Attack1");
-        private static readonly int Combo2 = Animator.StringToHash("Attack2");
-        private static readonly int Combo3 = Animator.StringToHash("Attack3");
-        
-        private Path _path;
-        private Seeker _seeker;
-        private Rigidbody2D _rigidbody;
-        
-        private int _currentWayPoint;
-        private int _attackCount;
-        
-        private float _timer;
 
-        private bool _cooldown;
+        private const int DoMovement = 1;
+        private const int DontMovement = 0;
+
+        private EnemyAttack enemyAttack;
+        
+        private Path path;
+        private Seeker seeker;
+        private Rigidbody2D rb;
+        
+        private int currentWayPoint;
 
         // Start is called before the first frame update
         void Start()
         {
-            _seeker = GetComponent<Seeker>();
-            _rigidbody = GetComponent<Rigidbody2D>();
+            seeker = GetComponent<Seeker>();
+            rb = GetComponent<Rigidbody2D>();
+
+            enemyAttack = gameObject.GetComponent<EnemyAttack>();
 
             InvokeRepeating(nameof(UpdatePath), 0, 0.5f);
         }
 
-        void Update()
-        {
-            if (_cooldown)
-            {
-                if (_timer < 1)
-                {
-                    _timer += Time.deltaTime;
-                }
-                else
-                {
-                    _timer = 0;
-                    _cooldown = false;
-                }
-            }
-        }
-
         void FixedUpdate()
         {
-            if (_path == null) return;
+            if (path == null) return;
 
-            if (_currentWayPoint >= _path.vectorPath.Count)
+            if (currentWayPoint >= path.vectorPath.Count)
             {
-                Debug.Log("Must Stop!");
-                
-                animator.SetFloat(Speed, 0);
+                animator.SetFloat(Speed, DontMovement);
 
                 Attack();
                 
@@ -80,28 +58,38 @@ namespace Enemy
 
         private void UpdatePath()
         {
-            if (_seeker.IsDone()) _seeker.StartPath(_rigidbody.position, target.position, OnPathComplete);
+            if (seeker.IsDone()) seeker.StartPath(rb.position, target.position, OnPathComplete);
         }
 
-        private void Movement()
+        private void OnPathComplete(Path paths)
         {
-            Vector2 direction = ((Vector2) _path.vectorPath[_currentWayPoint] - _rigidbody.position).normalized;
+            if (!paths.error)
+            {
+                path = paths;
+                
+                currentWayPoint = 0;
+            }
+        }
+
+        public override void Movement()
+        {
+            Vector2 direction = ((Vector2) path.vectorPath[currentWayPoint] - rb.position).normalized;
 
             Vector2 force = direction * (speed * Time.deltaTime);
 
-            _rigidbody.AddForce(force);
+            rb.AddForce(force);
                 
-            float distance = Vector2.Distance(_rigidbody.position, _path.vectorPath[_currentWayPoint]);
+            float distance = Vector2.Distance(rb.position, path.vectorPath[currentWayPoint]);
 
-            if (distance < nextWaypointDistance) _currentWayPoint++;
+            if (distance < nextWaypointDistance) currentWayPoint++;
 
-            animator.SetFloat(Speed, 1);
+            animator.SetFloat(Speed, DoMovement);
             
-            if (_rigidbody.velocity.x >= 0.01f)
+            if (rb.velocity.x >= 0.01f)
             {
                 enemyGfx.localScale = new Vector3(-1, 1, 1);
             }
-            else if (_rigidbody.velocity.x <= -0.01f)
+            else if (rb.velocity.x <= -0.01f)
             {
                 enemyGfx.localScale = new Vector3(1, 1, 1);
             }
@@ -109,86 +97,9 @@ namespace Enemy
             animator.SetFloat(Horizontal, enemyGfx.localScale.x);
         }
 
-        private void Attack()
+        public override void Attack()
         {
-            if (!_cooldown)
-            {
-                _attackCount++;
-                _attackCount = _attackCount > 3 ? _attackCount = 1 : _attackCount++;
-
-                switch (_attackCount)
-                {
-                    case 1:
-                        StartCoroutine(Attack1());
-                        break;
-                    case 2:
-                        StartCoroutine(Attack2());
-                        break;
-                    case 3:
-                        StartCoroutine(Attack3());
-                        break;
-                    default:
-                        Debug.Log("Attack Count Out Of Range() ");
-                        break;
-                }
-                
-                _cooldown = true;
-            }
-        }
-        
-        private void OnPathComplete(Path path)
-        {
-            if (!path.error)
-            {
-                _path = path;
-                
-                _currentWayPoint = 0;
-            }
-        }
-
-        private IEnumerator Attack1()
-        {
-            isAttack = true;
-            
-            animator.SetBool(Combo1, isAttack);
-            
-            Debug.Log("Attack 1");
-
-            yield return new WaitForSeconds(0.2f);
-            
-            isAttack = false;
-            
-            animator.SetBool(Combo1, isAttack);
-        }
-        
-        private IEnumerator Attack2()
-        {
-            isAttack = true;
-            
-            animator.SetBool(Combo2, isAttack);
-            
-            Debug.Log("Attack 2");
-
-            yield return new WaitForSeconds(0.2f);
-            
-            isAttack = false;
-            
-            animator.SetBool(Combo2, isAttack);
-        }
-        
-        private IEnumerator Attack3()
-        {
-            isAttack = true;
-            
-            animator.SetBool(Combo3, isAttack);
-            
-            Debug.Log("Attack 3");
-
-            yield return new WaitForSeconds(0.2f);
-            
-            isAttack = false;
-            
-            animator.SetBool(Combo3, isAttack);
+            enemyAttack.Attack();
         }
     }
 }

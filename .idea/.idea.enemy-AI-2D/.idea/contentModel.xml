@@ -215,7 +215,7 @@
             <e p="Character.cs" t="Include" />
             <e p="Enemy" t="Include">
               <e p="EnemyAI.cs" t="Include" />
-              <e p="EnemyGFX.cs" t="Include" />
+              <e p="EnemyAttack.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="Player.cs" t="Include" />

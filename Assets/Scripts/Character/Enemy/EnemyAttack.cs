@@ -1,28 +1,54 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
-namespace Character.Player
+namespace Character.Enemy
 {
-    public class PlayerAttack : MonoBehaviour
+    public class EnemyAttack : MonoBehaviour
     {
         public Animator animator;
         
         [HideInInspector] public bool isAttack;
-
+        
         private static readonly int Combo1 = Animator.StringToHash("Attack1");
         private static readonly int Combo2 = Animator.StringToHash("Attack2");
         private static readonly int Combo3 = Animator.StringToHash("Attack3");
+        
+        private const int MAXAttack = 3;
+        private const int MINAttack = 1;
 
+        private const float LimitTimer = 1;
+        private const float ResetTimer = 0;
+        
         private int attackCount;
         
+        private float timer;
         private float waitForAnimation = 0.2f;
+
+        private bool cooldown;
+
+        private void Update()
+        {
+            if (cooldown)
+            {
+                if (timer < LimitTimer)
+                {
+                    timer += Time.deltaTime;
+                }
+                else
+                {
+                    timer = ResetTimer;
+                    cooldown = false;
+                }
+            }
+        }
 
         public void Attack()
         {
-            if (Input.GetMouseButtonDown(0) && !isAttack)
+            if (!cooldown)
             {
                 attackCount++;
-                attackCount = attackCount > 3 ? attackCount = 1 : attackCount++;
+                attackCount = attackCount > MAXAttack ? attackCount = MINAttack : attackCount++;
 
                 switch (attackCount)
                 {
@@ -39,9 +65,11 @@ namespace Character.Player
                         Debug.Log("Attack Count Out Of Range() ");
                         break;
                 }
+                
+                cooldown = true;
             }
         }
-        
+
         private IEnumerator Attack1()
         {
             isAttack = true;

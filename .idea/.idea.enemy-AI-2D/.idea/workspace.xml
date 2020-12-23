@@ -19,33 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e881800e-e2f4-47cd-bc8d-ef4d0517d83a" name="Default Changelist" comment="add animation (real) top-down">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyGFX.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyGFX.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement.cs.meta" afterDir="false" />
+    <list default="true" id="e881800e-e2f4-47cd-bc8d-ef4d0517d83a" name="Default Changelist" comment="Clean code using abstract character">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAttack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.enemy-AI-2D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HeroKnight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HeroKnight.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/World.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/World.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyGFX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyGFX.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyGFX.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyGFX.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAttack.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/526469D5-A48C-43EE-BD9A-F19F8745AFA1/dd/ce82e7de/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,11 +51,14 @@
       <option value="$PROJECT_DIR$/Assets/_/TopDownShooter/Scripts/EnemyMain.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyGFX.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Character/Character.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Character/Character.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/EnemyAttack.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lhFkaVv4c91iLWrrBi4RO4X4g2" />
@@ -134,7 +120,8 @@
       <workItem from="1608178356732" duration="54000" />
       <workItem from="1608178550352" duration="1080000" />
       <workItem from="1608180867093" duration="13087000" />
-      <workItem from="1608702762535" duration="3028000" />
+      <workItem from="1608702762535" duration="4423000" />
+      <workItem from="1608712063416" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="add movement 4-direction (keyboard only)">
       <created>1608043190385</created>
@@ -150,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608130083675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clean code using abstract character">
+      <created>1608705841863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608705841863</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +169,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add movement 4-direction (keyboard only)" />
     <MESSAGE value="add animation (real) top-down" />
-    <option name="LAST_COMMIT_MESSAGE" value="add animation (real) top-down" />
+    <MESSAGE value="Clean code using abstract character" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean code using abstract character" />
   </component>
 </project>
